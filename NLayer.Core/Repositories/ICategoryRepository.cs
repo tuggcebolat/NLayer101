@@ -3,6 +3,6 @@
     public interface ICategoryRepository : IGenericRepository<Category>
     {
 
-        Task<Category> GetSingleCategoryByIdWithProductsAsync(int categoryId);
+        Task<Category> GetSingleCategoryByIdWithProductsAsync(int categoryId); //bir category dönecek
     }
 }
