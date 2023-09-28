@@ -38,10 +38,7 @@ namespace NLayer.Repository.Repositories
             return _dbSet.AsNoTracking().AsQueryable();
         }
 
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public async Task<T> GetByIdAsync(int id)
         {
